@@ -1,0 +1,149 @@
+#header {
+    background-color: #520e80;
+    color: #70666e;
+    
+    background: linear-gradient(135deg, #cf2323, #800e80);
+    padding: 2rem;
+    margin-top: 1rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.fieldset-poppy {
+    background-color: #800e0e;
+    color: #b4b4b4;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #d80f0f;
+    box-shadow: 0 0 10px #d80f0f;
+}
+
+.fieldset-fnaf {
+    background-color: #520e80;
+    color: #b4b4b4;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #800e80;
+    box-shadow: 0 0 10px #800e80;
+}
+
+.img-poppy {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10px;
+    border: 2px solid #300000;
+    box-shadow: 0 0 10px #300000;
+    cursor: pointer;
+    
+}
+
+.img-fnaf {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10px;
+    border: 2px solid #29021f;
+    box-shadow: 0 0 10px #29021f;
+    cursor: pointer;
+    
+}
+img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+    box-shadow: 0 0 20px #29021f;
+
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+    margin-top: 1rem;
+    
+   
+}
+
+.legend-poppy {
+    color: #d80f0f;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid #d80f0f;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #800e0e;
+    box-shadow: 0 0 10px #d80f0f;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.legend-fnaf {
+    color: #800e80; 
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid #800e80;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #520e80;
+    box-shadow: 0 0 10px #800e80;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.legend-poppy:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #d80f0f;
+}
+
+.legend-fnaf:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #800e80;
+}
+
+button {
+    background-color: #520e80;
+    color: #b4b4b4;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #800e80;
+    box-shadow: 0 0 10px #800e80;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #800e80;
+}
+
+#btn-botao {
+    background-color: #d80f0f;
+    color: #b4b4b4;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #d80f0f;
+    box-shadow: 0 0 10px #d80f0f;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#btn-botao:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #d80f0f;
+}
+
+
